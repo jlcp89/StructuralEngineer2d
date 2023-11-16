@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Info">
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:id="@+id/relativeL"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:gravity="top"
+            >
+
+            <LinearLayout
+                android:id="@+id/linear_titulo"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="3sp"
+                android:background="@color/colorTexto"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3sp"
+                    android:background="@color/colorFondo">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity=""
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:text="@string/app_name"
+                        android:textColor="@color/colorBlanco"
+                        android:textSize="25dp" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_manual"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="3sp"
+                android:background="@color/colorTexto"
+                android:orientation="horizontal"
+                android:layout_below="@+id/linear_titulo"
+
+                >
+
+                <Button
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+                    android:text="@string/manual_de_usuario_pdf"
+                    android:textColor="@color/colorNegro"
+                    android:background="@color/colorBlanco"
+                    android:textSize="15dp"
+                    android:id="@+id/boton_manual_usuario"
+                    android:layout_centerHorizontal="true"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/linear_manual2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="3sp"
+                android:background="@color/colorTexto"
+                android:orientation="horizontal"
+                android:layout_below="@+id/linear_manual"
+
+                >
+
+                    <Button
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="10dp"
+                        android:text="@string/manual_de_usuario_y"
+                        android:textColor="@color/colorBlanco"
+                        android:background="@color/colorRun"
+                        android:textSize="25dp"
+                        android:id="@+id/boton_manual_usuarioy"
+                        android:layout_centerHorizontal="true"
+                        />
+            </LinearLayout>
+
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/regresar"
+                android:textColor="@color/colorNegro"
+                android:textSize="20dp"
+                android:id="@+id/boton_cancelar"/>
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

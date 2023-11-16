@@ -1,0 +1,95 @@
+{
+  "name": "hello_card",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "IN2P5yoWukLwLGai1BiQ4S",
+    "node": "4:2",
+    "version": "4414375124",
+    "component-id": "1123d6c4fb6c46fd1befdc0f59052c01dd8f7947"
+  },
+  "default": "Hello Card",
+  "documentation": "asdas",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "Image"
+      },
+      {
+        "type": "text",
+        "id": "Title"
+      }
+    ],
+    "modes": {
+      "Hello Card": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": "16.0",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Image",
+              "Title"
+            ],
+            "item-spacing": "16.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "32.3076923076923",
+              "saturation": "0.051587301587301626",
+              "value": "0.9882352941176471"
+            }
+          },
+          {
+            "id": "Image",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "216.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "124.0"
+              }
+            },
+            "image-content": "image.jpeg",
+            "scale": "cover"
+          },
+          {
+            "id": "Title",
+            "color": {
+              "alpha": "1.0",
+              "hue": "228.0",
+              "saturation": "0.15625",
+              "value": "0.12549019607843137"
+            },
+            "text-content": "Hello World",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "24.0",
+            "line-height": "1.219000021616618",
+            "typeface": "Montserrat"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Hello Card",
+      "size": {
+        "width": 284.0,
+        "height": 624.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

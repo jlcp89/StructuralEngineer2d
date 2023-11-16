@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "367539608171",
+    "firebase_url": "https://structuralengineer2d.firebaseio.com",
+    "project_id": "structuralengineer2d",
+    "storage_bucket": "structuralengineer2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367539608171:android:ef2297320a686b4ee7af2e",
+        "android_client_info": {
+          "package_name": "com.desarrollojlcp.structuralengineer2d"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367539608171-890dethugiop36f94mtg4ge8a2hjahtc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.desarrollojlcp.structuralengineer2d",
+            "certificate_hash": "e670e982852701f986f487ec746799b4e738690c"
+          }
+        },
+        {
+          "client_id": "367539608171-p7c0unmjnasibgdr9k7upn658t8v5jh2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTxrKv2NDIOilCypqvDHDTFuBjyvCjwzE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "367539608171-p7c0unmjnasibgdr9k7upn658t8v5jh2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

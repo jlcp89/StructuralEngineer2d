@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IngresoSeccion">
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:id="@+id/relativeL"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            >
+
+            <LinearLayout
+                android:id="@+id/linear_titulo"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="3sp"
+                android:background="@color/colorTexto"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3sp"
+                    android:background="@color/colorFondo">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity=""
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:text="@string/ingresar_sec_trans"
+                        android:textColor="@color/colorBlanco"
+                        android:textSize="25dp" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_id"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/linear_titulo"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="3sp"
+                android:background="@color/colorTexto"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3sp"
+                    android:background="@color/colorFondo">
+
+                    <TextView
+                        android:layout_width="160dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity=""
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:text="@string/ingreso_id_sec_t"
+                        android:textColor="@color/colorBlanco"
+                        android:textSize="13dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:background="@color/colorFondo"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/id_seccion"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorBlanco"
+                            android:gravity="center"
+                            android:text="1"
+                            android:textColor="@color/colorFondo"
+                            android:textSize="20dp" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_modulo"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/linear_id"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="3sp"
+                android:background="@color/colorTexto"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3sp"
+                    android:background="@color/colorFondo">
+
+                    <TextView
+                        android:id="@+id/titulo_ingreso_modulo_e"
+                        android:layout_width="160dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity=""
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:text="@string/modulo"
+                        android:textColor="@color/colorBlanco"
+                        android:textSize="12dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:background="@color/colorFondo"
+                        android:gravity="center">
+
+                        <EditText
+                            android:id="@+id/editModulo"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorBlanco"
+                            android:gravity="center"
+                            android:hint="200.00"
+                            android:textColor="@color/colorFondo"
+                            android:inputType="numberDecimal"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_area"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/linear_inercia"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="3sp"
+                android:background="@color/colorTexto"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3sp"
+                    android:background="@color/colorFondo">
+
+                    <TextView
+                        android:id="@+id/titulo_ingreso_area"
+                        android:layout_width="160dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity=""
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:text="@string/area"
+                        android:textColor="@color/colorBlanco"
+                        android:textSize="12dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:background="@color/colorFondo"
+                        android:gravity="center">
+
+                        <EditText
+                            android:id="@+id/editArea"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorBlanco"
+                            android:gravity="center"
+                            android:hint="10.00"
+                            android:textColor="@color/colorFondo"
+                            android:inputType="numberDecimal"/>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_inercia"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/linear_modulo"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="3sp"
+                android:background="@color/colorTexto"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3sp"
+                    android:background="@color/colorFondo">
+
+                    <TextView
+                        android:id="@+id/titulo_ingreso_inercia"
+                        android:layout_width="160dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity=""
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:text="@string/inercia"
+                        android:textColor="@color/colorBlanco"
+                        android:textSize="12dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:background="@color/colorFondo"
+                        android:gravity="center">
+
+                        <EditText
+                            android:id="@+id/editInercia"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorBlanco"
+                            android:gravity="center"
+                            android:hint="300.00"
+                            android:textColor="@color/colorFondo"
+                            android:inputType="numberDecimal"/>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/linear_boton_guardar"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_below="@+id/linear_area"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="3sp"
+                android:background="@color/colorTexto"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3sp"
+                    android:background="@color/colorFondo"
+                    android:gravity="center">
+
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity=""
+                        android:layout_margin="10dp"
+                        android:gravity="center"
+                        android:text="@string/guardar_continuar"
+                        android:textColor="@color/colorNegro"
+                        android:textSize="12dp"
+                        android:id="@+id/boton_guardar_seguir"/>
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity=""
+                        android:layout_margin="10dp"
+                        android:gravity="center"
+                        android:text="@string/cancelar"
+                        android:textColor="@color/colorNegro"
+                        android:textSize="12dp"
+                        android:id="@+id/boton_cancelar"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">Structural Engineer 2D</string>
+    <string name="ingreso_nodo">Enter Node</string>
+    <string name="ingreso_nodo_cx">X Coordinate </string>
+    <string name="ingreso_nodo_cy">Y Coordinate </string>
+    <string name="boton_otro_nodo">Save and Add Another Node</string>
+    <string name="ingreso_id_nodo">Node ID</string>
+    <string name="restriccion_nodo">Restrictions on the support</string>
+    <string name="si">Yes</string>
+    <string name="no">No</string>
+    <string name="es_apoyo">Is this node a support?</string>
+    <string name="guardar_continuar">Save and Return</string>
+    <string name="ingresar_elemento">Create Element</string>
+    <string name="ingreso_id_elemento">Element ID</string>
+    <string name="ingreso_nodo_n">Select nearby node (N node)</string>
+    <string name="ingreso_nodo_f">Select far node   (F node)</string>
+    <string name="ingresar_sec_trans">Create Cross Section</string>
+    <string name="ingresar_area">Enter area of cross section </string>
+    <string name="ingresar_inercia">Enter inertia of the cross section </string>
+    <string name="ingresar_modulo">Enter elasticity module </string>
+    <string name="ingreso_id_sec_t">Cross Section ID</string>
+    <string name="elegir_seccion">Select Cross Section</string>
+    <string name="minimos_para_crear_elemento">Please create at least 1 Cross Section and 3 Nodes to create Elements!</string>
+    <string name="ingresar_carga">Create Load</string>
+    <string name="ingreso_e">Select element</string>
+    <string name="ingreso_f_1">Magnitude </string>
+    <string name="ingreso_f_4">Magnitude </string>
+    <string name="ingreso_f_23">Magnitude </string>
+    <string name="minimos_para_crear_carga">Please create at least two elements and then add a load!</string>
+    <string name="minimos_para_crear_analizar">Please create at least one load to analyze!</string>
+    <string name="ingreso_a">Distance A </string>
+    <string name="datos_seccion">Cross Sections Data</string>
+    <string name="titulo_reporte">STRUCTURAL ANALYSIS 2D - REPORT</string>
+    <string name="fecha">Date: </string>
+    <string name="area_cm">A </string>
+    <string name="inercia_cm">I </string>
+    <string name="modulo_gpa">E </string>
+    <string name="area">A </string>
+    <string name="inercia">I </string>
+    <string name="modulo">E </string>
+    <string name="datos_elemento">Elements Data</string>
+    <string name="nodo_n">N node ID: </string>
+    <string name="nodo_f">F node ID: </string>
+    <string name="delta_x">Lambda X: </string>
+    <string name="delta_y">Lambda Y: </string>
+    <string name="matriz_k_local">Local Stiffness Matrix (k local)</string>
+    <string name="matriz_k_global">Global Stiffness Matrix (k global)</string>
+    <string name="matriz_t_des">Displacement Transformation Matrix</string>
+    <string name="matriz_t_fuer">Force Transformation Matrix</string>
+    <string name="divisor_elemento_reporte">"---------------------------------------------"</string>
+    <string name="divisor_seccion_reporte" >"*********************************************"</string>
+    <string name="longitud" >"L : "</string>
+    <string name="datos_marco" >"Structure Data"</string>
+    <string name="matriz_k_marco" >"Structure Stiffness Matrix (K)"</string>
+    <string name="cantidad_nodos" >"Number of nodes"</string>
+    <string name="cantidad_apoyos" >"Number of supports"</string>
+    <string name="cantidad_elementos" >"Number of elements"</string>
+    <string name="vector_cargas" >"Known Nodal Loads (Qk) "</string>
+    <string name="vector_des_con" >"Known Nodal Deflections (Dk) "</string>
+    <string name="datos_cargas" >"Loads Data"</string>
+    <string name="angulo" >"Inclination Angle of Member (Rad)"</string>
+    <string name="fem" >"(FEM) on Global Coordinates "</string>
+    <string name="datos_resultados" >"RESULTS"</string>
+    <string name="des_nodos" >"Displacements on Nodes (Du) "</string>
+    <string name="q_kd" >"Applying (Qk) = (K11 * Du)"</string>
+    <string name="qk_a" >"(Qk) = (K11 * Du) + (K12 * Dk)"</string>
+    <string name="qu_a" >"Applying (Qu) = (K21 * Du)"</string>
+    <string name="super_q_fem" >"Superposition result to FEM"</string>
+    <string name="reac_apoyos" >"Reactions in Supports (Qu)"</string>
+    <string name="milimetro" >"mm"</string>
+    <string name="metro" >"m"</string>
+    <string name="newton" >"N"</string>
+    <string name="giga_pascal" >"GPa"</string>
+    <string name="pulgada" >"in"</string>
+    <string name="pie" >"ft"</string>
+    <string name="libra" >"Lb"</string>
+    <string name="kilolibra_pulgada2" >"Ksi"</string>
+    <string name="guardar_marco" >"Save Frame"</string>
+    <string name="nombre_marco" >"Name of file: "</string>
+    <string name="guardar" >"Save"</string>
+    <string name="cancelar" >"Cancel"</string>
+    <string name="elegir_archivo" >"Select File"</string>
+    <string name="cargas_internas_elemento">Internal Element Loads</string>
+    <string name="q_internas">"(q = k' * Ti * Di)"</string>
+    <string name="fem1">"(FEM)"</string>
+    <string name="q_f">"(qf)"</string>
+    <string name="minimos_crear_nodo">"Please create at least one cross section!"</string>
+    <string name="seccion_creada_correctamente">"Cross section created successfully!"</string>
+    <string name="agregar_otro_nodo">"Save and create another node"</string>
+    <string name="agregar_otro_elemento">"Save and create another element"</string>
+    <string name="agregar_otra_carga">"Save and create another load"</string>
+    <string name="nodo_creado_correctamente">"Node created successfully!"</string>
+    <string name="elemento_creado_correctamente">"Element created successfully!"</string>
+    <string name="carga_creada_correctamente">"Load created successfully!"</string>
+    <string name="cerrando_app">Closing the app!!"</string>
+    <string name="seguro_cerrar_app">"Are you sure you want to close the app?"</string>
+    <string name="marco_analizado">"Structure successfully analyzed and files generated!"</string>
+    <string name="publicidad_cargando">"Loading Ads, please wait to generate files... Structure successfully analyzed!"</string>
+    <string name="video_archivos">"Watch the video to generate txt and jpeg files of the analyzed structure!"</string>
+    <string name="pague">"The free version of the app can analyze up to 9 nodes. Upgrade to Pro for larger structures!!"</string>
+    <string name="manual_de_usuario_pdf">"User Manual (www.d3sarrollo.com)"</string>
+    <string name="manual_de_usuario_y">"YouTube"</string>
+
+    <string name="regresar">"Return"</string>
+    <string name="link_manual">1</string>
+
+
+
+
+
+    <string name="id_app_admob">ca-app-pub-7114592307899156~3533416093</string>
+    <string name="id_banner1_admob">ca-app-pub-7114592307899156/7436006232</string>
+    <string name="id_video1_admob">ca-app-pub-7114592307899156/5778830709</string>
+    <string name="ingreso_nodo_cx_hint">4.00</string>
+
+
+</resources>
